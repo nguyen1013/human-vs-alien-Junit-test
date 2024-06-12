@@ -59,9 +59,9 @@ class SpeciesTest {
 
     @Test
     void setHitTimesTest() {
-        for (int i=1; i<= 10; i++) {
+        for (int i=1; i<= 20; i++) {
             specie.setHitTimes();
-            assertEquals((10-i), specie.getHitTimes());
+            assertEquals((20-i), specie.getHitTimes());
         }
         specie.setHitTimes();
         assertEquals(0, specie.getHitTimes());

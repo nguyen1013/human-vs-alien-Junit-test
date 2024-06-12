@@ -10,7 +10,7 @@ public class Species {
         this.height = height;
         this.isAlive = true;
         this.armor = 100;
-        this.hitTimes = 10;
+        this.hitTimes = 20;
     }
 
     public String getName() {
